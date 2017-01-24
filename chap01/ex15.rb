@@ -21,3 +21,15 @@ print txt_again.read
 
 print txt.close
 print txt_again.close
+
+=begin
+
+---STUDY DRILLS---
+
+5. Use only gets.chomp and try the script that way, Why is one way of getting the filename
+better than another?
+
+Using $stdin instead of ARGV allows the program to prompt what is needed by the user,
+whereas using ARGV assumes they know that an input is required.
+
+=end
